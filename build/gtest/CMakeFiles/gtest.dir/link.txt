@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O2 -g   -shared -Wl,-soname,libgtest.so -o /home/simon/groovy_workspace/sandbox/robair_demo/lib/libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o -L/opt/ros/groovy/lib -L/home/simon/groovy_workspace/sandbox/robair_demo/build/gtest/src -lpthread -Wl,-rpath,/opt/ros/groovy/lib:/home/simon/groovy_workspace/sandbox/robair_demo/build/gtest/src 
