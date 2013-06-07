@@ -28,7 +28,7 @@ Run on Robot
 
 ::
 
-    roscd robair-ros-pkg
+    roscd robAIRDEMO
     rosmake
 
 
@@ -52,7 +52,7 @@ Launch the reservation platform at:
 :: https://github.com/thomasNDS/robAirManager.git
 
 Launch the serverWeb node
-:: rosrun robair_driver serverWeb
+:: rosrun serverWeb
 
 
 
