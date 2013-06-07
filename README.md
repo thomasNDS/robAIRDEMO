@@ -26,13 +26,16 @@ Install dependencies
 Run on Robot
 ============
 
+Launch ROS:
+::
+    roscore
+
+
+In a new terminal:
 ::
 
     roscd robAIRDEMO
-    rosmake
 
-
-::
 
     make robair
 
@@ -51,9 +54,10 @@ Launch Web server
 Launch the reservation platform at:
 :: https://github.com/thomasNDS/robAirManager.git
 
+Launch the robot link:
+:: rosrun robair_node
+
 Launch the serverWeb node
 :: rosrun serverWeb
-
-
 
 
